@@ -1,0 +1,38 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  background: #222222;
+  overflow: hidden;
+}
+canvas {
+  display: block;
+  margin: auto;
+}
+
+#info{
+  position: absolute;
+  color: yellow;
+  font-size: 2em;
+  left: 2%;
+  top: 40%; 
+  text-transform: capitalize;
+  font-family: Calibri Light;
+}
+
+
+#info2{
+  position: absolute;
+  color: yellow;
+  font-size: 2em;
+  right: 3%;
+  top: 40%; 
+  text-transform: capitalize;
+  font-family: Calibri Light;
+  background: red;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+#logo{
+  position: absolute;
+}
